@@ -1,0 +1,54 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Webpage</title>
+    <style>
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .dynamic-text {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .action-btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        .action-btn:hover {
+            background-color: #45a049;
+        }
+        .new-element {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dynamic Webpage Demo</h1>
+    </header>
+    <main class="container">
+        <section>
+            <p id="dynamicText" class="dynamic-text">Initial text content</p>
+            <button id="changeTextBtn" class="action-btn">Change Text</button>
+            <button id="toggleElementBtn" class="action-btn">Toggle Element</button>
+            <div id="elementContainer"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
